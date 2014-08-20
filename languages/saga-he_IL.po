@@ -1,0 +1,637 @@
+# Copyright (C) 2014 Justin Tadlock
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stargazer 1.2.0-alpha-1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/saga\n"
+"POT-Creation-Date: 2014-08-20 22:04:36+00:00\n"
+"PO-Revision-Date: 2014-08-20 17:16-0600\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: comment/comment.php:7 comment/ping.php:5
+msgid "%s ago"
+msgstr "%s לפני"
+
+#: comment/comment.php:8 comment/comment.php:10 comment/ping.php:6
+#: comment/ping.php:8
+msgctxt "comment meta separator"
+msgid "&middot;"
+msgstr ""
+
+#: comment/comment.php:9 comment/ping.php:7 content/aside.php:31
+#: content/link.php:54 content/quote.php:31 content/status.php:45
+msgid "Permalink"
+msgstr "קישור קבוע"
+
+#: content/aside.php:14 content/aside.php:17 content/aside.php:28
+#: content/aside.php:30 content/aside.php:32 content/audio.php:15
+#: content/audio.php:17 content/audio.php:30 content/audio.php:41
+#: content/audio.php:43 content/chat.php:25 content/chat.php:27
+#: content/chat.php:40 content/chat.php:51 content/chat.php:53
+#: content/gallery.php:28 content/gallery.php:30 content/gallery.php:43
+#: content/gallery.php:54 content/gallery.php:56 content/image.php:28
+#: content/image.php:30 content/image.php:54 content/image.php:56
+#: content/link.php:25 content/link.php:27 content/link.php:51
+#: content/link.php:53 content/link.php:55 content/literature.php:25
+#: content/literature.php:26 content/literature.php:49
+#: content/literature.php:50 content/post.php:36 content/post.php:47
+#: content/quote.php:14 content/quote.php:17 content/quote.php:28
+#: content/quote.php:30 content/quote.php:32 content/status.php:22
+#: content/status.php:25 content/status.php:42 content/status.php:44
+#: content/status.php:46 content/video.php:15 content/video.php:17
+#: content/video.php:30 content/video.php:41 content/video.php:43
+msgctxt "post meta separator"
+msgid "&middot;"
+msgstr ""
+
+#: content/attachment-audio.php:28
+msgid "Audio Info"
+msgstr "מידע על קובץ השמע"
+
+#: content/attachment-image.php:28
+msgid "Sizes: %s"
+msgstr "גדלים: %s"
+
+#: content/attachment-image.php:75
+msgid "Image Info"
+msgstr "מידע על התמונה"
+
+#: content/attachment-image.php:86
+msgid "Gallery"
+msgstr "גלריה"
+
+#: content/attachment-video.php:28
+msgid "Video Info"
+msgstr "מידע על קובץ הוידאו"
+
+#: content/error.php:6
+msgid "Nothing found"
+msgstr "לא נמצא דבר"
+
+#: content/error.php:10
+msgid "Apologies, but no entries were found."
+msgstr "מתנצלים, אך לא נמצאו פוסטים בנושא זה."
+
+#: content/gallery.php:4
+#, fuzzy
+msgid "%s gallery item"
+msgid_plural "%s gallery items"
+msgstr[0] "גלריה זו מכילה פריט %s ."
+msgstr[1] "גלריה זו מכילה %s פריטים."
+
+#: content/image.php:42 content/link.php:39
+msgid "Posted in %s"
+msgstr "פורסם בקטגוריה %s"
+
+#: content/image.php:43 content/link.php:40
+msgid "Tagged %s"
+msgstr "עם תגיות %s"
+
+#: content/literature.php:30 content/post.php:24
+msgid "Written by %s"
+msgstr ""
+
+#. Translators: 1 is current year, 2 is site name/link, 3 is WordPress
+#. name/link, and 4 is theme name/link.
+#: footer.php:18
+msgid "Copyright &#169; %1$s %2$s. Powered by %3$s and %4$s."
+msgstr "כל הזכויות שמורות &#169; %1$s %2$s. מופעל על ידי %3$s וכן %4$s."
+
+#: header.php:13
+msgid "Skip to content"
+msgstr "לדלג לתוכן"
+
+#: inc/custom-colors.php:349
+msgid "Menu Color"
+msgstr ""
+
+#: inc/custom-colors.php:363
+msgid "Primary Color"
+msgstr "צבע ראשוני"
+
+#: inc/customize.php:68
+msgid "Header Icon"
+msgstr ""
+
+#: inc/theme.php:64
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr "ראשי"
+
+#. Translators: The %s is the post title shown to screen readers.
+#: inc/theme.php:262
+msgid "Continue reading %s"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:48
+msgid "Template"
+msgstr "תבנית"
+
+#. Translators: %s is the theme name.
+#: library/admin/theme-settings.php:134 library/admin/theme-settings.php:199
+msgid "%s Theme Settings"
+msgstr "%s הגדרות ערכת עיצוב"
+
+#: library/admin/theme-settings.php:135
+msgid "Theme Settings"
+msgstr "הגדרות ערכת עיצוב"
+
+#: library/classes/customize-control-background-image.php:49
+msgctxt "theme customizer tab"
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#. Translators: Media dimensions - 1 is width and 2 is height.
+#: library/classes/hybrid-media-meta.php:154
+#: library/classes/hybrid-media-meta.php:282
+#: library/functions/template-media.php:102
+msgid "%1$s &#215; %2$s"
+msgstr "%1$s &#215; %2$s"
+
+#: library/classes/hybrid-media-meta.php:155
+#: library/classes/hybrid-media-meta.php:282
+msgid "Dimensions"
+msgstr "ממדים"
+
+#: library/classes/hybrid-media-meta.php:161
+msgid "Date"
+msgstr "תאריך"
+
+#: library/classes/hybrid-media-meta.php:165
+msgid "Camera"
+msgstr "מצלמה"
+
+#: library/classes/hybrid-media-meta.php:169
+msgid "Aperture"
+msgstr "מפתח"
+
+#. Translators: Camera focal length.
+#: library/classes/hybrid-media-meta.php:174
+msgid "%s mm"
+msgstr "%s מ\"מ"
+
+#: library/classes/hybrid-media-meta.php:174
+msgid "Focal Length"
+msgstr "מרחק מהמוקד"
+
+#: library/classes/hybrid-media-meta.php:180
+msgid "International Organization for Standardization"
+msgstr "ארגון התקינה הבינלאומי"
+
+#: library/classes/hybrid-media-meta.php:180
+msgid "ISO"
+msgstr "ISO"
+
+#. Translators: Camera shutter speed. "sec" is an abbreviation for "seconds".
+#: library/classes/hybrid-media-meta.php:199
+msgid "%s sec"
+msgstr "%s שנ'"
+
+#: library/classes/hybrid-media-meta.php:199
+msgid "Shutter Speed"
+msgstr "מהירות סגירת הצמצם"
+
+#: library/classes/hybrid-media-meta.php:248
+#: library/classes/hybrid-media-meta.php:285
+msgid "File Name"
+msgstr "שם קובץ"
+
+#: library/classes/hybrid-media-meta.php:256
+#: library/classes/hybrid-media-meta.php:293
+msgid "File Type"
+msgstr "סוג קובץ"
+
+#: library/extensions/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr "לדפדף"
+
+#: library/extensions/breadcrumb-trail.php:179
+msgid "Home"
+msgstr "דף הבית"
+
+#: library/extensions/breadcrumb-trail.php:180
+#: library/functions/template-general.php:513
+msgid "404 Not Found"
+msgstr "שגיאה 404 לא נמצא"
+
+#: library/extensions/breadcrumb-trail.php:181
+#: library/functions/template-general.php:339
+msgid "Archives"
+msgstr "ארכיונים"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: library/extensions/breadcrumb-trail.php:183
+#: library/functions/template-general.php:494
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "תוצאות חיפוש עבור &#8220;%s&#8221;"
+
+#. Translators: %s is the page number.
+#: library/extensions/breadcrumb-trail.php:185
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: library/extensions/breadcrumb-trail.php:187
+#: library/functions/template-general.php:455
+msgid "Minute %s"
+msgstr "דקה %s"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: library/extensions/breadcrumb-trail.php:189
+msgid "Week %s"
+msgstr "שבוע %s"
+
+#: library/extensions/breadcrumb-trail.php:716
+#: library/functions/template-general.php:474
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: library/extensions/breadcrumb-trail.php:733
+#: library/functions/template-general.php:455
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: library/extensions/breadcrumb-trail.php:750
+#: library/functions/template-general.php:435
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: library/extensions/breadcrumb-trail.php:766
+#: library/extensions/breadcrumb-trail.php:795
+#: library/extensions/breadcrumb-trail.php:822
+#: library/extensions/breadcrumb-trail.php:849
+#: library/extensions/breadcrumb-trail.php:1036
+#: library/functions/template-general.php:377
+#: library/functions/template-general.php:397
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: library/extensions/breadcrumb-trail.php:767
+#: library/extensions/breadcrumb-trail.php:823
+#: library/extensions/breadcrumb-trail.php:1040
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: library/extensions/breadcrumb-trail.php:768
+#: library/extensions/breadcrumb-trail.php:1044
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: library/extensions/breadcrumb-trail.php:796
+#: library/functions/template-general.php:397
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: library/extensions/breadcrumb-trail.php:1135
+#: library/extensions/breadcrumb-trail.php:1171
+#: library/extensions/breadcrumb-trail.php:1188
+#: library/extensions/breadcrumb-trail.php:1219
+msgid "Edit"
+msgstr "עריכה"
+
+#: library/extensions/breadcrumb-trail.php:1163
+msgid "Split"
+msgstr "פיצול"
+
+#: library/extensions/breadcrumb-trail.php:1167
+msgid "Merge"
+msgstr "איחוד"
+
+#: library/extensions/post-stylesheets.php:286
+msgid "Stylesheet"
+msgstr "גיליון סגנונות"
+
+#. Translators: Default theme layout option.
+#: library/extensions/theme-layouts.php:363
+msgctxt "theme layout"
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: library/extensions/theme-layouts.php:458
+#: library/extensions/theme-layouts.php:565
+#: library/extensions/theme-layouts.php:650
+msgid "Layout"
+msgstr "פריסה"
+
+#: library/extensions/theme-layouts.php:683
+msgid "Global Layout"
+msgstr "פריסה כללית"
+
+#. Translators: The %s is the sidebar name. This is used for the 'aria-label'
+#. attribute.
+#: library/functions/attr.php:195
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr "%s תפריט צד"
+
+#. Translators: The %s is the menu name. This is used for the 'aria-label'
+#. attribute.
+#: library/functions/attr.php:223
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr "%s תפריט"
+
+#. Translators: Post date/time "title" attribute.
+#: library/functions/attr.php:440
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, F j, Y, g:i a"
+
+#. Translators: Comment date/time "title" attribute.
+#: library/functions/attr.php:561
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, F j, Y, g:i a"
+
+#. Translators: 1 is the page title. 2 is the page number.
+#: library/functions/head.php:149
+msgid "%1$s Page %2$s"
+msgstr "עמוד %1$s %2$s"
+
+#: library/functions/media.php:32
+msgid "Post Thumbnail"
+msgstr "תמונת פוסט מוקטנת"
+
+#: library/functions/media.php:53
+msgid "File Size"
+msgstr "גודל קובץ"
+
+#: library/functions/media.php:54
+msgid "Mime Type"
+msgstr "Mime מסוג"
+
+#: library/functions/media.php:55
+msgid "Run Time"
+msgstr "זמן ריצה"
+
+#: library/functions/media.php:60
+msgid "Genre"
+msgstr "ג'נר"
+
+#: library/functions/media.php:61
+msgid "Year"
+msgstr "שנה"
+
+#: library/functions/media.php:62
+msgid "Composer"
+msgstr "מלחין"
+
+#: library/functions/media.php:63
+msgid "Track"
+msgstr "רצועה"
+
+#: library/functions/media.php:66
+msgid "Lyrics"
+msgstr "מילים"
+
+#: library/functions/template-general.php:55
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr "פלטפורמה פרסומית אישית סמנטית חדשנית"
+
+#: library/functions/template-general.php:55
+msgid "WordPress"
+msgstr "וורדפרס"
+
+#. Translators: Theme name.
+#: library/functions/template-general.php:82
+#: library/functions/template-general.php:115
+msgid "%s WordPress Theme"
+msgstr "%s ערכת עיצוב של וורדפרס"
+
+#: library/functions/template-general.php:305
+msgid "You are browsing the search results for &#8220;%s&#8221;"
+msgstr "הנכם צופים בתוצאות חיפוש עבור &#8220;%s&#8221;"
+
+#: library/functions/template-general.php:311
+msgid "You are browsing the site archives by time."
+msgstr "הנכם צופים בארכיוני האתר לפי זמן פרסום."
+
+#: library/functions/template-general.php:314
+#: library/functions/template-general.php:317
+#: library/functions/template-general.php:320
+msgid "You are browsing the site archives for %s."
+msgstr "הנכם צופים בארכיוני האתר עבור %s."
+
+#: library/functions/template-general.php:323
+msgid "You are browsing the site archives."
+msgstr "הנכם צופים בארכיוני האתר."
+
+#. Translators: 1 is the week number and 2 is the year.
+#: library/functions/template-general.php:397
+msgid "Week %1$s of %2$s"
+msgstr "שבוע %1$s מתוך %2$s"
+
+#: library/functions/template-general.php:416
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. Translators: Separates tags, categories, etc. when displaying a post.
+#: library/functions/template-post.php:144
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ", "
+
+#. Translators: Used as a placeholder for untitled posts on non-singular views.
+#: library/functions/utility.php:88
+msgid "(Untitled)"
+msgstr "(ללא שם)"
+
+#: menu/primary.php:6
+msgctxt "nav menu title"
+msgid "Menu"
+msgstr "תפריט"
+
+#. Translators: The two %s are placeholders for HTML. The order can't be
+#. changed.
+#: misc/comments-error.php:6
+msgid "Comments are closed, but %strackbacks%s and pingbacks are open."
+msgstr "התגובות סגורות, אך %sטרקבקים%s ופינגבקים פתוחים."
+
+#: misc/comments-error.php:13
+msgid "Comments are closed."
+msgstr "התגובות סגורות."
+
+#: misc/comments-nav.php:5
+msgid "Comments Navigation"
+msgstr "ניווט בתגובות"
+
+#: misc/comments-nav.php:7
+msgctxt "comments navigation"
+msgid "&larr; Previous"
+msgstr "&larr; תגובות קודמות"
+
+#. Translators: Comments page numbers. 1 is current page and 2 is total pages.
+#: misc/comments-nav.php:11
+msgid "Page %1$s of %2$s"
+msgstr "עמוד %1$s מתוך %2$s"
+
+#: misc/comments-nav.php:14
+msgctxt "comments navigation"
+msgid "Next &rarr;"
+msgstr "התגובות הבאות &rarr;"
+
+#: misc/loop-nav.php:5
+msgctxt "posts navigation"
+msgid "&larr; Previous"
+msgstr "&larr; הפוסטים הקודמים"
+
+#: misc/loop-nav.php:6
+msgctxt "posts navigation"
+msgid "Next &rarr;"
+msgstr "הפוסטים הבאים &rarr;"
+
+#. Theme Name of the plugin/theme
+msgid "Saga"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themehybrid.com/themes/saga"
+msgstr "http://themehybrid.com/themes/saga"
+
+#. Description of the plugin/theme
+msgid ""
+"A tailor-made theme for writers by a published author and professional theme "
+"designer. Words are important to all writers. Getting those words to display "
+"beautifully on the screen can be a daunting task. Saga was created so that "
+"you could simply tell your story without worrying about the technical "
+"details. Aside from impeccable typography and attention to detail, the theme "
+"provides several easy-to-use customization options so you can personalize "
+"your site's design. It also integrates with the Literary plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Justin Tadlock"
+msgstr "Justin Tadlock"
+
+#. Author URI of the plugin/theme
+msgid "http://themehybrid.com"
+msgstr "http://themehybrid.com"
+
+#~ msgid "1 Column Wide"
+#~ msgstr "עמודה אחת רחבה"
+
+#~ msgid "1 Column Narrow"
+#~ msgstr "עמודה אחת צרה"
+
+#~ msgid "2 Columns: Content / Sidebar"
+#~ msgstr "2 עמודות: תוכן / תפריט צד"
+
+#~ msgid "2 Columns: Sidebar / Content"
+#~ msgstr "2 עמודות: תפריט צד /תוכן"
+
+#~ msgid "Horizon"
+#~ msgstr "אופק"
+
+#~ msgid "Orange Burn"
+#~ msgstr "כתום בוער"
+
+#~ msgid "Blue Planets"
+#~ msgstr "כוכבים כחולים"
+
+#~ msgid "Planet Burst"
+#~ msgstr "פיצוץ כוכבים"
+
+#~ msgid "Space Splatters"
+#~ msgstr "ספלאש בחלל"
+
+#~ msgctxt "nav menu location"
+#~ msgid "Secondary"
+#~ msgstr "משני"
+
+#~ msgctxt "nav menu location"
+#~ msgid "Social"
+#~ msgstr "מדיה חברתית"
+
+#~ msgctxt "sidebar"
+#~ msgid "Primary"
+#~ msgstr "ראשי"
+
+#~ msgid ""
+#~ "The main sidebar. It is displayed on either the left or right side of the "
+#~ "page based on the chosen layout."
+#~ msgstr ""
+#~ "תפריט הצד הראשי. הוא מוצג בצידו הימני או השמאלי של העמוד, בהתבסס על "
+#~ "הפריסה שנבחרה. "
+
+#~ msgctxt "sidebar"
+#~ msgid "Subsidiary"
+#~ msgstr "כותרת תחתונה"
+
+#~ msgid ""
+#~ "A sidebar located in the footer of the site. Optimized for one, two, or "
+#~ "three widgets (and multiples thereof)."
+#~ msgstr ""
+#~ "תפריט צד, שנמצא בכותרת התחתונה של האתר. אופטימיזציה עבור וידג'ט אחד, "
+#~ "שניים או שלושה (ומספר וידג'טים בכל חלק\v)."
+
+#~ msgid "Expand Search Form"
+#~ msgstr "הרחבת את טופס החיפוש"
+
+#~ msgid "Previous Post: %link"
+#~ msgstr "הפוסט הקודם: %link"
+
+#~ msgid "Next Post: %link"
+#~ msgstr "הפוסט הבא: %link"
+
+#~ msgctxt "sidebar title"
+#~ msgid "%s Sidebar"
+#~ msgstr "%s תפריט צד"
+
+#~ msgid "Example Widget"
+#~ msgstr "וידג'ט לדוגמא"
+
+#~ msgid ""
+#~ "This is an example widget to show how the Primary sidebar looks by "
+#~ "default. You can add custom widgets from the %swidgets screen%s in the "
+#~ "admin."
+#~ msgstr ""
+#~ "זהו וידג'ט לדוגמא על מנת להראות את אופן הצגתו כברירת מחדל של תפריט הצד. "
+#~ "הינכם רשאים להוסיף וידג'טים מותאמים אישית מתוך %sמסך הוידג'טים%s בלוח "
+#~ "הבקרה."
+
+#~ msgid "Stargazer"
+#~ msgstr "Stargazer"
+
+#~ msgid ""
+#~ "Welcome to Stargazer, the most advanced theme ever created for WordPress "
+#~ "without compromising standards. This is the only theme in the world that "
+#~ "you'll find that extends WordPress' built-in theme features so robustly "
+#~ "but naturally. The theme is built on the rock-solid Hybrid Core theme "
+#~ "framework. It's built with search-engine optimization (SEO) in mind by "
+#~ "utilizing the most current HTML5 conventions and <a href=\"http://schema."
+#~ "org\">Schema.org</a> microdata. It also integrates with useful theme add-"
+#~ "on plugins like <a href=\"http://wordpress.org/plugins/custom-background-"
+#~ "extended\">Custom Background Extended</a>, <a href=\"http://wordpress.org/"
+#~ "plugins/custom-header-extended\">Custom Header Extended</a>, <a href="
+#~ "\"http://wordpress.org/plugins/whistles\">Whistles</a>, and more."
+#~ msgstr ""
+#~ "ברוכים הבאים לערכת Stargazer, ערכת העיצוב המתקדמת ביותר שנוצרה עבור "
+#~ "וורדפרס מבלי להתפשר על סטנדרטים. זו הערכה היחידה בעולם שתמצאו אשר מרחיבה "
+#~ "את התכונות המובנות של ערכת עיצוב בוורדפרס באופן טבעי אבל חסין.. הערכה "
+#~ "בנויה על בסיס תשתית Hybrid Core. היא כוללת בתוכה אופטימיזציה של מנועי "
+#~ "חיפוש (SEO) על ידי שימוש במוסכמות HTML5 העדכניות ביותר וכן<a href="
+#~ "\"http://schema.org\">Schema.org</a> מיקרודטה. היא גם מתאימה ומאחדת "
+#~ "תוספים שימושיים של ערכות עיצוב כמו <a href=\"http://wordpress.org/plugins/"
+#~ "custom-background-extended\">Custom Background Extended</a>, <a href="
+#~ "\"http://wordpress.org/plugins/custom-header-extended\">Custom Header "
+#~ "Extended</a>, <a href=\"http://wordpress.org/plugins/whistles\">Whistles</"
+#~ "a>, ועוד."
+
+#~ msgid "http://justintadlock.com"
+#~ msgstr "http://justintadlock.com"

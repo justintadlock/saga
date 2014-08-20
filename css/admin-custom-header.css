@@ -1,0 +1,70 @@
+div.wordpress { 
+	overflow: hidden;
+	padding:  0 25px;
+	font-size: 16px; 
+}
+		#branding {
+			line-height: 2.5em; 
+			padding:     0.5em 0;
+		}
+
+		.header-image {
+			display:   block;
+			max-width: 100%;
+			height:    auto;
+			margin:    0 auto 2.25em;
+		}
+
+	@media only screen and ( min-width: 850px ) {
+
+		.ltr #branding { float: left; }
+
+		.rtl #branding { float: right; }
+
+		#branding { max-width: 50%; }
+	}
+
+
+	#site-title::before {
+		vertical-align: middle;
+		font-size: 24px;
+	}
+
+		.ltr #site-title::before { padding: 0 8px 5px 0; }
+		.rtl #site-title::before { padding: 0 0 5px 8px; }
+
+#header {
+	margin-bottom: 1.5em;
+	line-height:   2.5em;
+}
+
+	#site-title,
+	#site-description {
+		display:        inline-block;
+		margin:         0;
+		padding:        0;
+		line-height:    2.5em;
+		vertical-align: middle;
+	}
+
+	#site-title {
+		text-transform: uppercase;
+		font-weight:    900;
+		font-size:      1.5em;
+		font-family: 'Lato', sans-serif;
+	}
+
+		#site-title a { text-decoration: none; }
+
+		#site-title a:hover,
+		#site-title a:focus { text-decoration: underline; }
+
+	#site-description {
+		font-style:  italic;
+		font-weight: 400;
+		font-size:   1.125em;
+		font-family: 'Playfair Display', Georgia, serif;
+	}
+
+		.ltr #site-description { margin-left:  0.75em; }
+		.rtl #site-description { margin-right: 0.75em; }
