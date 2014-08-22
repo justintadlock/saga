@@ -6,7 +6,8 @@
 
 /* Styles specific to the editor. */
 
-body#tinymce {
+body#tinymce,
+html.wp-fullscreen body#tinymce {
 	max-width: 650px;
 	margin:    0 auto;
 	padding:   1.5rem 1.5rem 0;
