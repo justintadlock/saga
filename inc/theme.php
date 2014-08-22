@@ -34,8 +34,8 @@ add_filter( 'excerpt_more',   'saga_excerpt_more'   );
 add_filter( 'the_excerpt',    'saga_the_excerpt', 5 );
 
 /* Adds custom settings for the visual editor. */
-add_filter( 'tiny_mce_before_init', 'saga_tiny_mce_before_init' );
-add_filter( 'mce_css',              'saga_mce_css'              );
+add_filter( 'tiny_mce_before_init',        'saga_tiny_mce_before_init' );
+add_filter( 'wpview_media_sandbox_styles', 'saga_media_sandbox_styles' );
 
 /**
  * Registers custom image sizes for the theme.
@@ -165,6 +165,38 @@ function saga_get_editor_styles() {
 }
 
 /**
+ * Overwrite sandboxed media view styles.
+ *
+ * @since  1.0.0
+ * @access public
+ * @param  array  $styles
+ * @return array
+ */
+function saga_media_sandbox_styles( $styles ) {
+	$version = 'ver=' . $GLOBALS['wp_version'];
+
+ 	$mediaelement   = includes_url( "js/mediaelement/mediaelementplayer.min.css?$version" );
+ 	$wpmediaelement = includes_url( "js/mediaelement/wp-mediaelement.css?$version" );
+
+	foreach ( $styles as $key => $style ) {
+
+		if ( $style === $mediaelement || $style === $wpmediaelement )
+			unset( $styles[ $key ] );
+	}
+
+	$styles[] = '//fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic';
+	$styles[] = trailingslashit( HYBRID_CSS ) . 'one-five.min.css';
+	$styles[] = trailingslashit( get_template_directory_uri() ) . 'css/mediaelement/mediaelement.min.css';
+	$styles[] = trailingslashit( get_template_directory_uri() ) . 'css/font-awesome.min.css';
+	$styles[] = trailingslashit( get_template_directory_uri() ) . 'style.min.css';
+
+	/* Uses Ajax to display custom theme styles added via the Theme Mods API. */
+	$styles[] = add_query_arg( 'action', 'saga_media_sandbox_styles', admin_url( 'admin-ajax.php' ) );
+
+	return $styles;
+}
+
+/**
  * Adds the <body> class to the visual editor.
  *
  * @since  1.0.0
@@ -177,23 +209,6 @@ function saga_tiny_mce_before_init( $settings ) {
 	$settings['body_class'] = join( ' ', array_merge( get_body_class(), get_post_class() ) );
 
 	return $settings;
-}
-
-/**
- * Removes the media player styles from the visual editor since we're loading our own.
- *
- * @since  1.1.0
- * @access public
- * @param  string  $mce_css
- * @return string
- */
-function saga_mce_css( $mce_css ) {
-	$version = 'ver=' . $GLOBALS['wp_version'];
-
-	$mce_css = str_replace( includes_url( "js/mediaelement/mediaelementplayer.min.css?$version" ) . ',', '', $mce_css );
-	$mce_css = str_replace( includes_url( "js/mediaelement/wp-mediaelement.css?$version" ) . ',',        '', $mce_css );
-
-	return $mce_css;
 }
 
 /**

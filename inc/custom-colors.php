@@ -56,6 +56,10 @@ final class Saga_Custom_Colors {
 		/* Visual editor colors */
 		add_action( 'wp_ajax_saga_editor_styles',         array( $this, 'editor_styles_callback' ) );
 		add_action( 'wp_ajax_no_priv_saga_editor_styles', array( $this, 'editor_styles_callback' ) );
+
+		add_action( 'wp_ajax_saga_media_sandbox_styles',         array( $this, 'editor_styles_callback' ) );
+		add_action( 'wp_ajax_no_priv_saga_media_sandbox_styles', array( $this, 'editor_styles_callback' ) );
+
 	}
 
 	/**
