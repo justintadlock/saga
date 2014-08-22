@@ -85,6 +85,8 @@ body { overflow-x: hidden; }
 			padding:     0.5rem 0;
 		}
 
+		#branding { padding-top: 0.75rem; }
+
 		.header-image {
 			display:   block;
 			max-width: 100%;
@@ -1203,8 +1205,8 @@ strong, b { font-weight: 900; }
 /* ====== Header ====== */
 
 #header {
-	margin-top:    1.5rem;
-	margin-bottom: 1.5rem;
+	margin-top:    1rem;
+	margin-bottom: 1rem;
 	line-height:   2.5rem;
 }
 
