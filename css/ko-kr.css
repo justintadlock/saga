@@ -1,0 +1,25 @@
+﻿/* Korean stylesheet. */
+
+q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary { 
+	font-family: Lato, 'Malgun Gothic', 'Gulim', 'Batang', "돋움", 'Dotum', 'Hangangche', sans-serif;
+}
+
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+	font-family: 'Playfair Display', 'Georgia', 'Malgun Gothic', 'Gulim', 'Batang', "돋움", 'Dotum', 'Hangangche', serif;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.font-headlines {
+	font-family: 'Playfair Display', 'Georgia', 'Malgun Gothic', 'Gulim', 'Batang', "돋움", 'Dotum', 'Hangangche', serif;
+}

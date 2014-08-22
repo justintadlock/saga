@@ -1,0 +1,30 @@
+﻿/* Chinese stylesheet */
+/* http://www.kendraschaefer.com/2012/06/chinese-standard-web-fonts-the-ultimate-guide-to-css-font-family-declarations-for-web-design-in-simplified-chinese/ */
+
+q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary { 
+	font-family: Lato, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+	font-family: 'Playfair Display', Georgia, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", serif;
+}
+
+.font-headlines,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Playfair Display', Georgia, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", serif;
+}

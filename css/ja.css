@@ -1,0 +1,25 @@
+﻿/* Japanese Stylesheet */
+/* http://stackoverflow.com/questions/14563064/japanese-standard-web-fonts */
+
+body,
+#site-title,
+.main .entry-subtitle,
+button,
+.font-primary { 
+	font-family: Lato, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+blockquote,
+dt,
+.entry-byline .entry-author a,
+var,
+.font-secondary {
+	font-family: 'Playfair Display', "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro W3", "HG明朝E", "HG Mincho E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.font-headlines {
+	font-family: 'Playfair Display', Georgia, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro W3", "HG明朝E", "HG Mincho E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
