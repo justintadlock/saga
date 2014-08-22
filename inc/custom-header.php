@@ -154,9 +154,9 @@ function saga_custom_header_admin_head() {
 
 	$rgb = hybrid_hex_to_rgb( $hex );
 
-	$style = "#site-title, #site-title a { color: rgba( {$rgb['r']}, {$rgb['g']}, {$rgb['b']}, 0.85 ); }";
+	$style = "#site-title, #site-title a { color: #{$hex} }";
 
-	$style .= "#site-description { color: rgba( {$rgb['r']}, {$rgb['g']}, {$rgb['b']}, 0.5 ); }";
+	$style .= "#site-description { color: rgba( {$rgb['r']}, {$rgb['g']}, {$rgb['b']}, 0.75 ); }";
 
 	/* Get the background color. */
 	$color = get_background_color();
