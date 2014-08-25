@@ -73,7 +73,7 @@ function saga_register_menus() {
  */
 function saga_enqueue_scripts() {
 
-	$suffix = '';//hybrid_get_min_suffix();
+	$suffix = hybrid_get_min_suffix();
 
 	wp_register_script( 'saga', trailingslashit( get_template_directory_uri() ) . "js/theme{$suffix}.js", array( 'jquery' ), null, true );
 
