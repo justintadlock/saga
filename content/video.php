@@ -4,7 +4,7 @@
 
 	<div class="wrap">
 
-		<?php if ( is_singular( get_the_ID() ) ) : // If viewing a single post. ?>
+		<?php if ( is_single( get_the_ID() ) ) : // If viewing a single post. ?>
 
 			<header class="entry-header">
 
