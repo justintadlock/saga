@@ -94,11 +94,14 @@ body { overflow-x: hidden; }
 			margin:    0 auto 2.25rem;
 		}
 
-		.singular .entry { position: relative; }
+		.singular .entry,
+		.error-404 .entry { position: relative; }
 
-			.singular .entry > .wrap { padding-top: 1.5rem; }
+			.singular .entry > .wrap,
+			.error-404 .entry > .wrap { padding-top: 1.5rem; }
 
 		.singular .entry > .wrap,
+		.error-404 .entry > .wrap,
 		#comments-template {
 			max-width:     650px;
 			margin-left:   auto;
@@ -1946,7 +1949,8 @@ li.ping,
 
 .entry > .wrap,
 .plural .entry,
-.singular .main {
+.singular .main,
+.error-404 .main {
 	background-color: #fff;
 }
 
