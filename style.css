@@ -376,6 +376,14 @@ dd {
 	font-size: 1.125rem;
 }
 
+/* === <hr> tag === */
+
+hr { 
+	height:        3px;
+	border-bottom: 1px solid;
+	border-top:    1px solid;
+}
+
 /* ====== Code ====== */
 
 code {
@@ -1956,7 +1964,8 @@ li.ping,
 
 /* === background transparent === */
 
-pre code {
+pre code,
+hr {
 	background: transparent;
 }
 
@@ -2035,7 +2044,7 @@ select {
 	border-color: #e5e5e5;
 }
 
-fieldset { border-color: #e5e5e5; }
+hr, fieldset { border-color: #e5e5e5; }
 
 input[type="date"]:focus,
 input[type="datetime"]:focus,
