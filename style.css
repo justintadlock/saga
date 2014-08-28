@@ -2035,6 +2035,8 @@ select {
 	border-color: #e5e5e5;
 }
 
+fieldset { border-color: #e5e5e5; }
+
 input[type="date"]:focus,
 input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,

@@ -179,7 +179,7 @@ jQuery( document ).ready( function() {
 
 			/* color */
 
-			jQuery( 'label.focus, pre, .form-allowed-tags code, .required, .line-through' ).
+			jQuery( 'label.focus, legend, pre, .form-allowed-tags code, .required, .line-through' ).
 				css( 'color', to );
 
 			jQuery( 'a, .mejs-overlay-button' ).
@@ -195,12 +195,12 @@ jQuery( document ).ready( function() {
 				not( '.menu-toggle button, .mejs-button button' ).
 				css( 'background-color', 'rgba( ' + rgb + ', 0.75 )' );
 
-			jQuery( 'pre, .form-allowed-tags code' ).
+			jQuery( 'legend, pre, .form-allowed-tags code' ).
 				css( 'background-color', 'rgba( ' + rgb + ', 0.1 )' );
 
 			/* border color */
 
-			jQuery( 'pre, .form-allowed-tags code' ).
+			jQuery( 'legend, pre, .form-allowed-tags code' ).
 				css( 'border-color', 'rgba( ' + rgb + ', 0.15 )' );
 
 			/* border bottom color */

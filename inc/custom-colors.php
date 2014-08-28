@@ -182,6 +182,7 @@ final class Saga_Custom_Colors {
 				.mejs-overlay-button:hover, 
 				.mejs-overlay-button:focus,
 				label.focus,
+				legend,
 				pre,
 				.form-allowed-tags code,
 				.required,
@@ -228,13 +229,13 @@ final class Saga_Custom_Colors {
 				{ background-color: rgba( {$rgb}, 0.75 ); }
 			";
 
-		$style .= "pre, .form-allowed-tags code { background-color: rgba( {$rgb}, 0.1 ); }";
+		$style .= "legend, pre, .form-allowed-tags code { background-color: rgba( {$rgb}, 0.1 ); }";
 
 		/* === Border Color === */
 
 		$style .= "a:focus img { border-color: #{$hex}; }";
 
-		$style .= "pre, .form-allowed-tags code { border-color: rgba( {$rgb}, 0.15 ); }";
+		$style .= "legend, pre, .form-allowed-tags code { border-color: rgba( {$rgb}, 0.15 ); }";
 
 		/* === Border Bottom Color === */
 
