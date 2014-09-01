@@ -1,4 +1,4 @@
-<article <?php hybrid_attr( 'post' ); ?>>
+<article class="entry">
 
 	<div class="wrap">
 
