@@ -1,0 +1,479 @@
+# Translation of Saga 1.0.0 in Portuguese (Brazil)
+# This file is distributed under the same license as the Saga 1.0.0 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-09-01 23:52:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Saga 1.0.0\n"
+
+#: comment/comment.php:7 comment/ping.php:5
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: comment/comment.php:8 comment/comment.php:10 comment/ping.php:6
+#: comment/ping.php:8
+msgctxt "comment meta separator"
+msgid "&middot;"
+msgstr "&middot;"
+
+#: comment/comment.php:9 comment/ping.php:7 content/aside.php:31
+#: content/link.php:54 content/quote.php:31 content/status.php:45
+msgid "Permalink"
+msgstr "Link permanente"
+
+#: content/aside.php:14 content/aside.php:17 content/aside.php:28
+#: content/aside.php:30 content/aside.php:32 content/audio.php:15
+#: content/audio.php:17 content/audio.php:30 content/audio.php:41
+#: content/audio.php:43 content/chat.php:25 content/chat.php:27
+#: content/chat.php:40 content/chat.php:51 content/chat.php:53
+#: content/gallery.php:28 content/gallery.php:30 content/gallery.php:43
+#: content/gallery.php:54 content/gallery.php:56 content/image.php:28
+#: content/image.php:30 content/image.php:54 content/image.php:56
+#: content/link.php:25 content/link.php:27 content/link.php:51
+#: content/link.php:53 content/link.php:55 content/literature.php:25
+#: content/literature.php:26 content/literature.php:49
+#: content/literature.php:50 content/post.php:36 content/post.php:47
+#: content/quote.php:14 content/quote.php:17 content/quote.php:28
+#: content/quote.php:30 content/quote.php:32 content/status.php:22
+#: content/status.php:25 content/status.php:42 content/status.php:44
+#: content/status.php:46 content/video.php:15 content/video.php:17
+#: content/video.php:30 content/video.php:41 content/video.php:43
+msgctxt "post meta separator"
+msgid "&middot;"
+msgstr "&middot;"
+
+#: content/attachment-audio.php:28
+msgid "Audio Info"
+msgstr "Informações do Áudio"
+
+#: content/attachment-image.php:28
+msgid "Sizes: %s"
+msgstr "Dimensões: %s"
+
+#: content/attachment-image.php:75
+msgid "Image Info"
+msgstr "Informações da Imagem"
+
+#: content/attachment-image.php:86
+msgid "Gallery"
+msgstr "Galeria"
+
+#: content/attachment-video.php:28
+msgid "Video Info"
+msgstr "Informações do Vídeo"
+
+#: content/error.php:6
+msgid "Nothing found"
+msgstr "Nada foi encontrado"
+
+#: content/error.php:10
+msgid "Apologies, but no entries were found."
+msgstr "Desculpe-nos, mas nenhuma entrada foi encontrada."
+
+#: content/gallery.php:4
+msgid "%s gallery item"
+msgid_plural "%s gallery items"
+msgstr[0] "%s item na galeria"
+msgstr[1] "%s items na galeria"
+
+#: content/image.php:42 content/link.php:39
+msgid "Posted in %s"
+msgstr "Postado em %s"
+
+#: content/image.php:43 content/link.php:40
+msgid "Tagged %s"
+msgstr "Taggeado como %s"
+
+#: content/literature.php:30 content/post.php:24
+msgid "Written by %s"
+msgstr "Escrito por %s"
+
+#: footer.php:18
+msgid "Copyright &#169; %1$s %2$s. Powered by %3$s and %4$s."
+msgstr "Copyright &#169; %1$s %2$s. Desenvolvido com %3$s e %4$s."
+
+#: header.php:13
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: inc/custom-colors.php:349
+msgid "Menu Color"
+msgstr "Cor do Menu"
+
+#: inc/custom-colors.php:363
+msgid "Primary Color"
+msgstr "Cor Primária"
+
+#: inc/customize.php:68
+msgid "Header Icon"
+msgstr "Ícone no Cabeçalho"
+
+#: inc/theme.php:64
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr "Primário"
+
+#: inc/theme.php:262
+msgid "Continue reading %s"
+msgstr "Continue lendo %s"
+
+#: library/admin/meta-box-post-template.php:48
+msgid "Template"
+msgstr "Template"
+
+#: library/admin/theme-settings.php:134 library/admin/theme-settings.php:199
+msgid "%s Theme Settings"
+msgstr "%s Definições do Tema"
+
+#: library/admin/theme-settings.php:135
+msgid "Theme Settings"
+msgstr "Definições do Tema"
+
+#: library/classes/customize-control-background-image.php:49
+msgctxt "theme customizer tab"
+msgid "Default"
+msgstr "Padrão"
+
+#: library/classes/hybrid-media-meta.php:154
+#: library/classes/hybrid-media-meta.php:282
+#: library/functions/template-media.php:102
+msgid "%1$s &#215; %2$s"
+msgstr "%1$s &#215; %2$s"
+
+#: library/classes/hybrid-media-meta.php:155
+#: library/classes/hybrid-media-meta.php:282
+msgid "Dimensions"
+msgstr "Dimensões"
+
+#: library/classes/hybrid-media-meta.php:161
+msgid "Date"
+msgstr "Data"
+
+#: library/classes/hybrid-media-meta.php:165
+msgid "Camera"
+msgstr "Camera"
+
+#: library/classes/hybrid-media-meta.php:169
+msgid "Aperture"
+msgstr "Abertura"
+
+#: library/classes/hybrid-media-meta.php:174
+msgid "%s mm"
+msgstr "%s mm"
+
+#: library/classes/hybrid-media-meta.php:174
+msgid "Focal Length"
+msgstr "Distância Focal"
+
+#: library/classes/hybrid-media-meta.php:180
+msgid "International Organization for Standardization"
+msgstr "Organização Internacional para Padronização"
+
+#: library/classes/hybrid-media-meta.php:180
+msgid "ISO"
+msgstr "ISO"
+
+#: library/classes/hybrid-media-meta.php:199
+msgid "%s sec"
+msgstr "%s seg"
+
+#: library/classes/hybrid-media-meta.php:199
+msgid "Shutter Speed"
+msgstr "Velocidade do Obturador"
+
+#: library/classes/hybrid-media-meta.php:248
+#: library/classes/hybrid-media-meta.php:285
+msgid "File Name"
+msgstr "Nome do Arquivo"
+
+#: library/classes/hybrid-media-meta.php:256
+#: library/classes/hybrid-media-meta.php:293
+msgid "File Type"
+msgstr "Tipo do Arquivo"
+
+#: library/extensions/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr "Navegação:"
+
+#: library/extensions/breadcrumb-trail.php:179
+msgid "Home"
+msgstr "Home"
+
+#: library/extensions/breadcrumb-trail.php:180
+#: library/functions/template-general.php:513
+msgid "404 Not Found"
+msgstr "404 Não Encontrado"
+
+#: library/extensions/breadcrumb-trail.php:181
+#: library/functions/template-general.php:339
+msgid "Archives"
+msgstr "Arquivos"
+
+#: library/extensions/breadcrumb-trail.php:183
+#: library/functions/template-general.php:494
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Resultados de busca para &#8220;%s&#8221;"
+
+#: library/extensions/breadcrumb-trail.php:185
+msgid "Page %s"
+msgstr "Página %s"
+
+#: library/extensions/breadcrumb-trail.php:187
+#: library/functions/template-general.php:455
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#: library/extensions/breadcrumb-trail.php:189
+msgid "Week %s"
+msgstr "Semana %s"
+
+#: library/extensions/breadcrumb-trail.php:716
+#: library/functions/template-general.php:474
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: library/extensions/breadcrumb-trail.php:733
+#: library/functions/template-general.php:455
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: library/extensions/breadcrumb-trail.php:750
+#: library/functions/template-general.php:435
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: library/extensions/breadcrumb-trail.php:766
+#: library/extensions/breadcrumb-trail.php:795
+#: library/extensions/breadcrumb-trail.php:822
+#: library/extensions/breadcrumb-trail.php:849
+#: library/extensions/breadcrumb-trail.php:1036
+#: library/functions/template-general.php:377
+#: library/functions/template-general.php:397
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: library/extensions/breadcrumb-trail.php:767
+#: library/extensions/breadcrumb-trail.php:823
+#: library/extensions/breadcrumb-trail.php:1040
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: library/extensions/breadcrumb-trail.php:768
+#: library/extensions/breadcrumb-trail.php:1044
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: library/extensions/breadcrumb-trail.php:796
+#: library/functions/template-general.php:397
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: library/extensions/breadcrumb-trail.php:1135
+#: library/extensions/breadcrumb-trail.php:1171
+#: library/extensions/breadcrumb-trail.php:1188
+#: library/extensions/breadcrumb-trail.php:1219
+msgid "Edit"
+msgstr "Editar"
+
+#: library/extensions/breadcrumb-trail.php:1163
+msgid "Split"
+msgstr "Divisão"
+
+#: library/extensions/breadcrumb-trail.php:1167
+msgid "Merge"
+msgstr "Fundir"
+
+#: library/extensions/post-stylesheets.php:286
+msgid "Stylesheet"
+msgstr "Folha de estilo"
+
+#: library/extensions/theme-layouts.php:363
+msgctxt "theme layout"
+msgid "Default"
+msgstr "Padrão"
+
+#: library/extensions/theme-layouts.php:458
+#: library/extensions/theme-layouts.php:565
+#: library/extensions/theme-layouts.php:650
+msgid "Layout"
+msgstr "Layout"
+
+#: library/extensions/theme-layouts.php:683
+msgid "Global Layout"
+msgstr "Layout Global"
+
+#: library/functions/attr.php:195
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr "%s Barra Lateral"
+
+#: library/functions/attr.php:223
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr "%s Menu"
+
+#: library/functions/attr.php:440
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, F j, Y, g:i a"
+
+#: library/functions/attr.php:561
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, F j, Y, g:i a"
+
+#: library/functions/head.php:149
+msgid "%1$s Page %2$s"
+msgstr "%1$s Página %2$s"
+
+#: library/functions/media.php:32
+msgid "Post Thumbnail"
+msgstr "Miniatura do Post"
+
+#: library/functions/media.php:53
+msgid "File Size"
+msgstr "Tamanho do Arquivo"
+
+#: library/functions/media.php:54
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#: library/functions/media.php:55
+msgid "Run Time"
+msgstr "Run Time"
+
+#: library/functions/media.php:60
+msgid "Genre"
+msgstr "Gênero"
+
+#: library/functions/media.php:61
+msgid "Year"
+msgstr "Ano"
+
+#: library/functions/media.php:62
+msgid "Composer"
+msgstr "Compositor"
+
+#: library/functions/media.php:63
+msgid "Track"
+msgstr "Trilha"
+
+#: library/functions/media.php:66
+msgid "Lyrics"
+msgstr "Letras"
+
+#: library/functions/template-general.php:55
+msgid "State-of-the-art semantic personal publishing platform"
+msgstr "Estado-da-arte em plataforma de publicação pessoal semântica"
+
+#: library/functions/template-general.php:55
+msgid "WordPress"
+msgstr "WordPress"
+
+#: library/functions/template-general.php:82
+#: library/functions/template-general.php:115
+msgid "%s WordPress Theme"
+msgstr "%s Tema para WordPress"
+
+#: library/functions/template-general.php:305
+msgid "You are browsing the search results for &#8220;%s&#8221;"
+msgstr "Você está visualizando os resultados da busca para &#8220;%s&#8221;"
+
+#: library/functions/template-general.php:311
+msgid "You are browsing the site archives by time."
+msgstr "Você está visualizando os arquivos do site por hora."
+
+#: library/functions/template-general.php:314
+#: library/functions/template-general.php:317
+#: library/functions/template-general.php:320
+msgid "You are browsing the site archives for %s."
+msgstr "Você está visualizando os arquivos do site por %s."
+
+#: library/functions/template-general.php:323
+msgid "You are browsing the site archives."
+msgstr "Você está visualizando os arquivos do site."
+
+#: library/functions/template-general.php:397
+msgid "Week %1$s of %2$s"
+msgstr "Semana %1$s de %2$s"
+
+#: library/functions/template-general.php:416
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: library/functions/template-post.php:144
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ", "
+
+#: library/functions/utility.php:88
+msgid "(Untitled)"
+msgstr "(Sem título)"
+
+#: menu/primary.php:6
+msgctxt "nav menu title"
+msgid "Menu"
+msgstr "Menu"
+
+#: misc/comments-error.php:6
+msgid "Comments are closed, but %strackbacks%s and pingbacks are open."
+msgstr "Fechado para comentários, mas aberto para %strackbacks%s e pingbacks."
+
+#: misc/comments-error.php:13
+msgid "Comments are closed."
+msgstr "Fechado para comentários."
+
+#: misc/comments-nav.php:5
+msgid "Comments Navigation"
+msgstr "Navegação Comentários"
+
+#: misc/comments-nav.php:7
+msgctxt "comments navigation"
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: misc/comments-nav.php:11
+msgid "Page %1$s of %2$s"
+msgstr "Página %1$s de %2$s"
+
+#: misc/comments-nav.php:14
+msgctxt "comments navigation"
+msgid "Next &rarr;"
+msgstr "Próximo &rarr;"
+
+#: misc/loop-nav.php:5
+msgctxt "posts navigation"
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: misc/loop-nav.php:6
+msgctxt "posts navigation"
+msgid "Next &rarr;"
+msgstr "Próximo &rarr;"
+
+msgid "Saga"
+msgstr "Saga"
+
+msgid "http://themehybrid.com/themes/saga"
+msgstr "http://themehybrid.com/themes/saga"
+
+msgid "A tailor-made theme for writers by a published author and professional theme designer. Words are important to all writers. Getting those words to display beautifully on the screen can be a daunting task. Saga was created so that you could simply tell your story without worrying about the technical details. Aside from impeccable typography and attention to detail, the theme provides several easy-to-use customization options so you can personalize your site's design. It also integrates with the Literary plugin."
+msgstr "Um tema feito sob medida para os escritores por um autor renomado e designer profissional. As palavras são importantes para todos os escritores. Obtendo essas palavras para exibir lindamente na tela pode ser uma tarefa assustadora. Saga foi criado para que você possa simplesmente contar a sua história sem se preocupar com os detalhes técnicos. Além de tipografia impecável e atenção aos detalhes, o tema oferece várias opções de customização fáceis de usar para que você possa personalizar o design do seu site. Ele também se integra com o plugin Literary."
+
+msgid "Justin Tadlock"
+msgstr "Justin Tadlock"
+
+msgid "http://themehybrid.com"
+msgstr "http://themehybrid.com"
