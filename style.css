@@ -1579,8 +1579,20 @@ text-align: center; }
 	.ltr .comment-list { margin-left: 0; }
 	.rtl .comment-list { margin-right: 0; }
 
-	.ltr .comment-list .children { margin-left: 3rem; }
-	.rtl .comment-list .children { margin-right: 3rem; }
+		.ltr .comment-list .children { margin-left:  1rem; }
+		.rtl .comment-list .children { margin-right: 1rem; }
+
+		@media only screen and ( min-width: 480px ) {
+
+			.ltr .comment-list .children { margin-left:  1.5rem; }
+			.rtl .comment-list .children { margin-right: 1.5rem; }
+		}
+
+		@media only screen and ( min-width: 650px ) {
+
+			.ltr .comment-list .children { margin-left:  3rem; }
+			.rtl .comment-list .children { margin-right: 3rem; }
+		}
 
 		/* === Individual comments */
 
