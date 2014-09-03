@@ -112,6 +112,8 @@ body { overflow-x: hidden; }
 
 		.singular .format-video .featured-media,
 		.singular .format-audio .featured-media,
+		.singular .format-image .featured-media,
+		.attachment-image .featured-media,
 		.attachment-video .featured-media,
 		.attachment-audio .featured-media {
 			margin: 0;
@@ -129,6 +131,8 @@ body { overflow-x: hidden; }
 
 		.singular .format-video .featured-media + .wrap,
 		.singular .format-audio .featured-media + .wrap,
+		.singular .format-image .featured-media + .wrap,
+		.attachment-image .entry .featured-media + .wrap,
 		.attachment-video .entry .featured-media + .wrap,
 		.attachment-audio .entry .featured-media + .wrap {
 			margin-top: 0;
