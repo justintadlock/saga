@@ -2,7 +2,7 @@
  * Theme Name:  Saga
  * Theme URI:   http://themehybrid.com/themes/saga
  * Description: A tailor-made theme for writers by a published author and professional theme designer. Words are important to all writers. Getting those words to display beautifully on the screen can be a daunting task. Saga was created so that you could simply tell your story without worrying about the technical details. Aside from impeccable typography and attention to detail, the theme provides several easy-to-use customization options so you can personalize your site's design. It also integrates with the Literary plugin.
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Justin Tadlock
  * Author URI:  http://themehybrid.com
  * Tags:        one-column, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, responsive-layout, rtl-language-support, theme-options, threaded-comments, translation-ready
@@ -112,6 +112,8 @@ body { overflow-x: hidden; }
 
 		.singular .format-video .featured-media,
 		.singular .format-audio .featured-media,
+		.singular .format-image .featured-media,
+		.attachment-image .featured-media,
 		.attachment-video .featured-media,
 		.attachment-audio .featured-media {
 			margin: 0;
@@ -129,6 +131,8 @@ body { overflow-x: hidden; }
 
 		.singular .format-video .featured-media + .wrap,
 		.singular .format-audio .featured-media + .wrap,
+		.singular .format-image .featured-media + .wrap,
+		.attachment-image .entry .featured-media + .wrap,
 		.attachment-video .entry .featured-media + .wrap,
 		.attachment-audio .entry .featured-media + .wrap {
 			margin-top: 0;
@@ -1575,8 +1579,20 @@ text-align: center; }
 	.ltr .comment-list { margin-left: 0; }
 	.rtl .comment-list { margin-right: 0; }
 
-	.ltr .comment-list .children { margin-left: 3rem; }
-	.rtl .comment-list .children { margin-right: 3rem; }
+		.ltr .comment-list .children { margin-left:  1rem; }
+		.rtl .comment-list .children { margin-right: 1rem; }
+
+		@media only screen and ( min-width: 480px ) {
+
+			.ltr .comment-list .children { margin-left:  1.5rem; }
+			.rtl .comment-list .children { margin-right: 1.5rem; }
+		}
+
+		@media only screen and ( min-width: 650px ) {
+
+			.ltr .comment-list .children { margin-left:  3rem; }
+			.rtl .comment-list .children { margin-right: 3rem; }
+		}
 
 		/* === Individual comments */
 

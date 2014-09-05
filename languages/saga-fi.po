@@ -4,15 +4,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Stargazer Theme in Finnish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/saga\n"
-"POT-Creation-Date: 2014-08-20 22:04:36+00:00\n"
-"PO-Revision-Date: 2014-08-20 17:18-0600\n"
+"POT-Creation-Date: 2014-08-20 22:27:41+00:00\n"
+"PO-Revision-Date: 2014-09-01 22:06+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
 "_x;_x:1,2c;_n:1,2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -26,7 +26,7 @@ msgstr "%s sitten"
 #: comment/ping.php:8
 msgctxt "comment meta separator"
 msgid "&middot;"
-msgstr ""
+msgstr "&middot;"
 
 #: comment/comment.php:9 comment/ping.php:7 content/aside.php:31
 #: content/link.php:54 content/quote.php:31 content/status.php:45
@@ -52,7 +52,7 @@ msgstr "Pikalinkki"
 #: content/video.php:30 content/video.php:41 content/video.php:43
 msgctxt "post meta separator"
 msgid "&middot;"
-msgstr ""
+msgstr "&middot;"
 
 #: content/attachment-audio.php:28
 msgid "Audio Info"
@@ -83,11 +83,10 @@ msgid "Apologies, but no entries were found."
 msgstr "Pahoittelut, mutta yhtään artikkelia ei löytynyt."
 
 #: content/gallery.php:4
-#, fuzzy
 msgid "%s gallery item"
 msgid_plural "%s gallery items"
-msgstr[0] "Galleriassa on %s kuva."
-msgstr[1] "Galleriassa on %s kuvaa."
+msgstr[0] "Galleriassa on %s kuva"
+msgstr[1] "Galleriassa on %s kuvaa"
 
 #: content/image.php:42 content/link.php:39
 msgid "Posted in %s"
@@ -99,7 +98,7 @@ msgstr "Avainsanat %s"
 
 #: content/literature.php:30 content/post.php:24
 msgid "Written by %s"
-msgstr ""
+msgstr "Kirjoittanut %s"
 
 #. Translators: 1 is current year, 2 is site name/link, 3 is WordPress
 #. name/link, and 4 is theme name/link.
@@ -112,9 +111,8 @@ msgid "Skip to content"
 msgstr "Siirry sisältöön"
 
 #: inc/custom-colors.php:349
-#, fuzzy
 msgid "Menu Color"
-msgstr "Menun järjestys"
+msgstr "Valikon väri"
 
 #: inc/custom-colors.php:363
 msgid "Primary Color"
@@ -122,7 +120,7 @@ msgstr "Pääväri"
 
 #: inc/customize.php:68
 msgid "Header Icon"
-msgstr ""
+msgstr "Otsakkeen ikoni"
 
 #: inc/theme.php:64
 msgctxt "nav menu location"
@@ -132,7 +130,7 @@ msgstr "Päävalikko"
 #. Translators: The %s is the post title shown to screen readers.
 #: inc/theme.php:262
 msgid "Continue reading %s"
-msgstr ""
+msgstr "Jatka lukemista %s"
 
 #: library/admin/meta-box-post-template.php:48
 msgid "Template"
@@ -504,7 +502,7 @@ msgstr "Seuraava &rarr;"
 
 #. Theme Name of the plugin/theme
 msgid "Saga"
-msgstr ""
+msgstr "Saga"
 
 #. Theme URI of the plugin/theme
 msgid "http://themehybrid.com/themes/saga"
@@ -520,6 +518,10 @@ msgid ""
 "provides several easy-to-use customization options so you can personalize "
 "your site's design. It also integrates with the Literary plugin."
 msgstr ""
+"Kirjoittajille tehty teema, joka korostaa typografiaa. Saga on luotu "
+"kirjoittamista varten ettei sinun tarvitsisi murehtia teknisestä puolesta. "
+"Teemassa on useita asetuksia, joilla voit muuttaa teeman ulkoasua ja teema "
+"toimii kirjallisuus-lisäosan kanssa."
 
 #. Author of the plugin/theme
 msgid "Justin Tadlock"

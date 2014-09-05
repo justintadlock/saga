@@ -55,8 +55,8 @@ function saga_customize_register( $wp_customize ) {
 			'default'              => get_theme_mod( 'header_icon', 'default' ),
 			'type'                 => 'theme_mod',
 			'capability'           => 'edit_theme_options',
-			'sanitize_callback'    => 'sanitize_html_class',
-			'sanitize_js_callback' => 'sanitize_html_class',
+			'sanitize_callback'    => 'esc_attr',
+			'sanitize_js_callback' => 'esc_attr',
 			'transport'            => 'postMessage',
 		)
 	);

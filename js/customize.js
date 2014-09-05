@@ -105,12 +105,14 @@ jQuery( document ).ready( function() {
 	 */
 	wp.customize( 'header_icon', function( value ) {
 
-		value.bind( function( to ) {
+		value.bind( function( new_icon, old_icon ) {
 
-			var classes = jQuery( '#site-title' ).attr( 'class' ).replace( /icon-[a-zA-Z0-9_-]*/g, '' );
+			if ( '' !== old_icon ) {
+				jQuery( '#site-title' ).removeClass( old_icon );
+			}
 
-			if ( '' !== to ) {
-				jQuery( '#site-title' ).attr( 'class', classes ).addClass( to );
+			if ( '' !== new_icon ) {
+				jQuery( '#site-title' ).addClass( new_icon );
 			}
 
 		} ); // value.bind
