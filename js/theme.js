@@ -119,7 +119,7 @@ jQuery( document ).ready( function() {
 
 	jQuery( '.menu-toggle button' ).click(
 		function() {
-			jQuery( this ).parents( '.menu' ).children( '.wrap' ).slideToggle( 'slow' ).toggleClass( 'open' );
+			jQuery( this ).parents( '.menu' ).children( '.wrap' ).stop().slideToggle( 'slow' ).toggleClass( 'open' );
 			jQuery( this ).toggleClass( 'active' );
 		}
 	);
