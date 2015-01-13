@@ -323,7 +323,7 @@ final class Saga_Custom_Colors {
 		$wp_customize->add_setting(
 			'color_menu',
 			array(
-				'default'              => get_theme_mod( 'color_primary', '' ),
+				'default'              => get_theme_mod( 'color_menu', '' ),
 				'type'                 => 'theme_mod',
 				'capability'           => 'edit_theme_options',
 				'sanitize_callback'    => 'sanitize_hex_color_no_hash',
@@ -336,7 +336,7 @@ final class Saga_Custom_Colors {
 		$wp_customize->add_setting(
 			'color_primary',
 			array(
-				'default'              => get_theme_mod( 'color_menu', '' ),
+				'default'              => get_theme_mod( 'color_primary', '' ),
 				'type'                 => 'theme_mod',
 				'capability'           => 'edit_theme_options',
 				'sanitize_callback'    => 'sanitize_hex_color_no_hash',
